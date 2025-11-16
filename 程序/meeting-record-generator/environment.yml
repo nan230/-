@@ -1,0 +1,14 @@
+name: meeting-generator
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - pip
+  - numpy=1.24.0
+  - pip:
+    - Flask==2.3.3
+    - python-docx==0.8.11
+    - Flask-CORS==3.0.10
+    - jieba==0.42.1
+    - requests==2.31.0

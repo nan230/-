@@ -1,0 +1,14 @@
+// ... existing code ...
+
+Flask==2.3.3          # 后端服务框架
+python-docx==0.8.11   # 生成Word文档
+Flask-CORS==3.0.10    # 解决前端跨域问题
+jieba==0.42.1         # 中文分词（辅助关键词提取）
+requests==2.31.0      # HTTP请求库
+numpy==1.24.0         # 数值计算基础库
+ollama==0.6.1         # Ollama本地大模型
+openai==1.3.0         # OpenAI兼容接口
+Pillow==10.0.0        # 图像处理库（备用）
+pandas==2.0.3         # 数据处理库（备用）
+openpyxl==3.1.2       # Excel处理库（备用）
+numpy==1.24.0         # 数值计算库
