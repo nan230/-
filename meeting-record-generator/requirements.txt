@@ -1,0 +1,7 @@
+Flask==2.3.3          # 后端服务框架
+ollama==0.6.1         # 调用本地Ollama模型
+python-docx==0.8.11   # 生成Word文档
+Flask-CORS==3.0.10    # 解决前端跨域问题
+jieba==0.42.1         # 中文分词（辅助关键词提取，可选）
+transformers==4.41.0  # 若用Hugging Face模型（如WizardLM）需安装
+torch==2.2.0          # 适配transformers的深度学习框架

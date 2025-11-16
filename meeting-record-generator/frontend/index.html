@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>会议记录生成器</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>会议记录自动生成系统</h1>
+        <!-- 文本输入区域 -->
+        <div class="input-section">
+            <label for="meeting-input">请输入会议描述：</label>
+            <textarea id="meeting-input" placeholder="例：下周三下午三点，在公司三楼大会议室开会，参会者有李明、张娜..."></textarea>
+        </div>
+        <!-- 功能按钮区域 -->
+        <div class="btn-section">
+            <button id="generate-btn">生成会议记录</button>
+            <div id="loading" style="display: none; color: #4285f4;">生成中...（约5-10秒）</div>
+        </div>
+        <!-- 结果下载区域（默认隐藏） -->
+        <div class="result-section" id="result" style="display: none;">
+            <h3>生成成功！</h3>
+            <a id="download-link" download="会议记录.docx">点击下载Word文档</a >
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
